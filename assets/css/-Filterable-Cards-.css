@@ -72,3 +72,55 @@ a:hover {
   text-decoration:none;
 }
 
+.card-header:first-child {
+  border:none;
+  padding-bottom:1.7rem;
+  padding-top:1.7rem;
+  /*border-radius:0px;*/
+}
+
+.card {
+  /*box-shadow:none;*/
+  border:0px;
+  margin-top:0px;
+  border-radius:0px;
+  margin-bottom:0px;
+  border-top:solid 3px #34a1c8;
+}
+
+@media (min-width: 300px) {
+  #column_sidemenus {
+    margin-top:20px;
+    border-top:solid 5px;
+    padding-top:20px;
+  }
+}
+
+@media (min-width: 576px) {
+  #column_sidemenus {
+    margin-top:20px;
+    border-top:solid 5px;
+    padding-top:20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #column_sidemenus {
+    margin-top:0px;
+    border-top:none;
+    padding-top:0px;
+  }
+}
+
+#lgaf a {
+  color:white;
+}
+
+.card.border-white.shadow.p-3.mb-5.bg-white.rounded {
+  border-top:solid 3px blue;
+}
+
+#accordion-1 .card {
+  border-top:0px;
+}
+

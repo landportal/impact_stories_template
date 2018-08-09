@@ -11,6 +11,7 @@
   -moz-transform:rotateY( 180deg );
   -o-transform:rotateY( 180deg );
   transform:rotateY( 180deg );
+  /*border-top:3px solid red;*/
 }
 
 .card-imagia {
